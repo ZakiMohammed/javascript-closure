@@ -1,0 +1,15 @@
+{
+  "name": "javascript-closure",
+  "version": "1.0.0",
+  "description": "Understanding closure functions in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Closure",
+    "JavaScript"
+  ],
+  "author": "Zaki Mohammed",
+  "license": "ISC"
+}
