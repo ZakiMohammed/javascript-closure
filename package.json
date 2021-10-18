@@ -11,8 +11,5 @@
     "JavaScript"
   ],
   "author": "Zaki Mohammed",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^2.0.13"
-  }
+  "license": "ISC"
 }
