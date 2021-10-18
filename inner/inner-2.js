@@ -1,10 +1,13 @@
 // creating inner function and passing the reference of inner function from outer function
 
+let value0 = 1;
+
 function outer() {
-    let num = 10;
+    let value1 = 10;
 
     function inner() {
-        console.log(num);
+        let value2 = 100;
+        console.log(value0, value1, value2);
     }
 
     return inner;

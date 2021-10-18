@@ -1,9 +1,12 @@
 // creating inner ref directly by immediately invoking the outer function
 
+let value0 = 1;
+
 const innerRef = (function () {
-    let num = 10;
+    let value1 = 10;
     return function () {
-        console.log(num);
+        let value2 = 100;
+        console.log(value0, value1, value2);
     };
 })();
 
