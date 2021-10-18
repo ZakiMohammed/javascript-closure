@@ -1,18 +1,18 @@
-// creating inner increment & decrement function for constructor Counter function
+// creating inner increment & decrement function and 
+// passing object from counter function using arrow function
 
-function Counter() {
+const counter = () => {
     let count = 0;
-
-    this.increment = function () {
-        return ++count;
-    }
-    this.decrement = function () {
-        return --count;
-    }
+    return ({
+        increment: () => ++count,
+        decrement: () => --count,
+        value: () => count
+    });
 }
 
-const counter1 = new Counter();
+const counter1 = counter();
 
+console.log(counter1.value())
 console.log(counter1.increment())
 console.log(counter1.increment())
 console.log(counter1.increment())

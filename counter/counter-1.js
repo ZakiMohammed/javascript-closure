@@ -1,4 +1,6 @@
-// creating inner increment function and passing the reference of inner increment function from counter function
+// creating inner increment function and 
+// passing the reference of inner increment function 
+// from counter function
 
 function counter() {
     let count = 0;
