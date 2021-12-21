@@ -21,3 +21,19 @@ console.log(result3);
 // get id and full name of employees
 const result4 = employees.map(i => ({ id: i.id, fullName: `${i.firstName} ${i.lastName}` }));
 console.log(result4);
+
+/*
+[
+  { id: 3, firstName: 'Smith', lastName: 'Woods', salary: 5400 },
+  { id: 4, firstName: 'Berry', lastName: 'Allen', salary: 4300 }
+]
+{ id: 3, firstName: 'Smith', lastName: 'Woods', salary: 5400 }
+3
+[
+  { id: 1, fullName: 'John Doe' },
+  { id: 2, fullName: 'Allen Green' },
+  { id: 3, fullName: 'Smith Woods' },
+  { id: 4, fullName: 'Berry Allen' },
+  { id: 5, fullName: 'Clark Kent' }
+]
+*/

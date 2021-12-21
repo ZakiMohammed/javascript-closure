@@ -10,3 +10,8 @@ const result2 = commaSplitter('thunder,bolt,attack');
 
 console.log(result1);
 console.log(result2);
+
+/*
+[ 'thunder', 'bolt', 'attack' ]
+[ 'thunder', 'bolt', 'attack' ]
+*/

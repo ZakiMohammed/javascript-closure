@@ -10,3 +10,6 @@ const sub = () => num1 - num2;
 
 console.log(compute(add));
 console.log(compute(sub));
+
+// 9
+// 3
